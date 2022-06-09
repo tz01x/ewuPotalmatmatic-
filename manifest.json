@@ -1,0 +1,26 @@
+{
+    "name": "CAPTCHA EWU PORTAL",
+    "description": "Helps with mental pressure of doing addition operation on EWU PORTAL login page",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+      },
+      "permissions": [
+         "activeTab", 
+         "scripting" ],
+      "options_page": "options.html",
+      "action": {
+        "default_popup": "popup.html"
+      },
+      "default_icon": {
+        "16": "/images/chrome-favicon-16-16.png",
+        "48": "/images/chrome-extensionmanagementpage-48-48.png",
+        "128": "/images/chrome-installprocess-128-128.png"
+      },
+      "icons": {
+        "16": "/images/chrome-favicon-16-16.png",
+        "48": "/images/chrome-extensionmanagementpage-48-48.png",
+        "128": "/images/chrome-installprocess-128-128.png"
+      }
+  }
